@@ -3,11 +3,11 @@ function checkAnswer() {
 
     const selectedAnswer = document.querySelector('input[name="quiz"]:checked');
      
-    if(selectedAnswer) {
+    if (selectedAnswer) {
         const userAnswer = selectedAnswer.value;
         const feedback = document.getElementById('feedback');
     
-        if(userAnswer === correctAnswer) {
+        if (userAnswer === correctAnswer) {
             feedback.textContent = "correct ! well done.";
         }
         else {

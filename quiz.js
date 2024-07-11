@@ -8,10 +8,10 @@ function checkAnswer() {
         const feedback = document.getElementById('feedback');
     
         if (userAnswer === correctAnswer) {
-            feedback.textContent = "correct ! well done.";
+            feedback.textContent = "Correct! Well done.";
         }
         else {
-            feedback.textContent = "That's incorrect. Try again.";
+            feedback.textContent = "That's incorrect. Try again!";
         }
     }
 }
